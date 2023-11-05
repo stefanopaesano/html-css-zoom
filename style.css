@@ -8,10 +8,12 @@ html{
     font: arial, helvetica;
 }
 footer{
-    height: 100px;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
+height: 100px;
+background-color: gray;
+display: flex;
+align-items: center;
+
+
 }
 main{
     height: calc(100vh - 100px);
@@ -48,9 +50,26 @@ main{
    background-color: #ffffff;
   
 }
-.primi-loghi > *{
-    width: 10px;
-    height: 10px;
+
+.container-primi-loghi > *{
+    display: inline-block;
+    color: #ffffff;
+    width: 40px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
+
+.container-secondi-loghi > * {
+    display:inline-block;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.loghi-2{
+  padding-left: 300px;
+  
+}
+
+
 
 
